@@ -1,0 +1,12 @@
+meshConfig:
+  defaultConfig:
+    proxyMetadata:
+      ENABLE_GATEWAY_API_INFERENCE_EXTENSION: "true"
+
+pilot:
+  env:
+    ENABLE_GATEWAY_API_INFERENCE_EXTENSION: "true"
+
+tag: 1.29.1
+hub: docker.io/istio
+
